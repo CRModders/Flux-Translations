@@ -1,0 +1,241 @@
+{
+    "language_tag": "en-US-AllColon3",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "base",
+        "fluxapi"
+    ],
+    "base": {
+        "priority": 1000,
+        "format_templates": {
+            "main_menu": {
+                "game_version": [
+                    "game_version"
+                ],
+                "controller_info": [
+                    "number_of_controllers",
+                    "controller_noun"
+                ]
+            },
+            "options_menu": {
+                "vsync": [
+                    "vsync_on"
+                ],
+                "render_distance": [
+                    "render_distance"
+                ],
+                "inverted_mouse": [
+                    "inverted_mouse"
+                ],
+                "mouse_sensitivity": [
+                    "mouse_sensitivity"
+                ],
+                "sound": [
+                    "sound_on"
+                ],
+                "fov": [
+                    "fov"
+                ],
+                "max_fps": [
+                    "fps"
+                ]
+            },
+            "pause_menu": {
+                "lighting": [
+                    "lighting"
+                ]
+            },
+            "in_game": {
+                "screenshot_saved_to": [
+                    "file"
+                ]
+            },
+            "loading_menu": {
+                "tips": [
+                    "hide_ui_key",
+                    "screenshot_key",
+                    "show_debug_key",
+                    "drop_key",
+                    "inventory_key"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": ":3",
+                "off": ":3",
+                "cancel": ":3",
+                "back": ":3",
+                "save": ":3",
+                "ok": ":3",
+                "done": ":3",
+                "return_to_main_menu": ":3 :3 :3 :3",
+                "return_to_game": ":3 :3 :3"
+            },
+            "main_menu": {
+                "start": ":3",
+                "open_save_directory": ":3 :3 :3",
+                "options": ":3",
+                "quit": ":3",
+                "yt_channel": ":3 :3 :3 :3 :3",
+                "game_version": ":3 :3 :3 :3",
+                "mac_warning": ":3: :3 :3 :3 :3 :3 :3 :3. :3 :3 :3 :3 :3 :3.",
+                "controller": ":3",
+                "controllers": ":3",
+                "controller_info": ":3 :3 :3!\n:3 :3 :3 :3 :3,\n:3 :3 :3 :3 :3 :3 :3."
+            },
+            "options_menu": {
+                "vsync": ":3: {vsync_on}",
+                "render_distance": ":3: :3 :3",
+                "inverted_mouse": ":3 :3: :3",
+                "mouse_sensitivity": ":3 :3: :3",
+                "sound": ":3: :3",
+                "fov": ":3: :3",
+                "keybinds": ":3",
+                "max_fps": ":3 :3: :3",
+                "crash_the_game": ":3: :3 :3 :3"
+            },
+            "pre_alpha_preamble": {
+                "pre_alpha_text": "!:3 :3 :3 :3! \n :3 :3 :3 :3 :3 :3 :3, :3 :3 :3 :3, :3 :3 :3 :3, \n :3 :3 :3 :3 :3, :3, :3 :3 :3 :3.\n :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3.\n :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3 \n :3 :3... :3 :3-:3!"
+            },
+            "pause_menu": {
+                "lighting": ":3: :3",
+                "respawn": ":3",
+                "saving": ":3..."
+            },
+            "keybinds": {
+                "forward": ":3",
+                "backward": ":3",
+                "left": ":3",
+                "right": ":3",
+                "jump": ":3",
+                "crouch": ":3",
+                "sprint": ":3",
+                "prone": ":3",
+                "inventory": ":3",
+                "drop_item": ":3 :3",
+                "hide_ui": ":3 :3",
+                "screenshot": ":3",
+                "debug_info": ":3 :3",
+                "no_clip": ":3-:3",
+                "reload_shaders": ":3 :3",
+                "fullscreen": ":3"
+            },
+            "world_chooser_menu": {
+                "create_new_world": ":3 :3 :3",
+                "open_worlds_directory": ":3 :3 :3"
+            },
+            "in_game": {
+                "screenshot_saved_to": ":3 :3 :3 :3"
+            },
+            "loading_menu": {
+                "loading": ":3",
+                "tips": [
+                    ":3 :3...",
+                    ":3 :3...",
+                    ":3 :3 :3...",
+                    ":3 :3...",
+                    ":3 :3...",
+                    ":3 :3...",
+                    ":3 :3...",
+                    ":3 :3 :3...",
+                    ":3 :3...",
+                    ":3 :3...",
+                    ":3 :3 :3...",
+                    ":3-:3 :3...",
+                    ":3-:3...",
+                    ":3 :3...",
+                    ":3 :3 :3 :3 :3 :3 :3 :3!",
+                    ":3 :3 :3 :3 :3 :3 :3 :3 :3 :3 :3!",
+                    ":3 :3 ':3' :3 :3 :3 :3 :3",
+                    ":3 :3 ':3' :3 :3 :3 :3!",
+                    ":3 :3 ':3' :3 :3 :3 :3 :3",
+                    ":3 :3 '{drop_key}' :3 :3 :3 :3 :3!",
+                    ":3 :3 '{inventory_key}' :3 :3 :3 :3!",
+                    ":3 :3 :3 :3 :3 :3 ':3 :3', :3 :3 :3 :3 :3 :3 :3 :3."
+                ],
+                "odd_tips": [
+                    ":3 :3...",
+                    ":3...",
+                    ":3 :3...",
+                    ":3 :3...",
+                    ":3 :3 :3...",
+                    ":3 :3 :3...",
+                    ":3 :3 \":3\"...",
+                    ":3 :3...",
+                    ":3 :3...",
+                    ":3 :3...",
+                    ":3 :3 :3 :3 :3 :3.",
+                    ":3: :3 :3 :3 :3 :3 :3...",
+                    ":3: :3 :3 :3 :3 :3 \":3 :3 :3 :3\"...",
+                    ":3: :3 :3 :3 :3 :3...",
+                    ":3: :3 :3 :3 :3?",
+                    ":3: :3 :3 :3 :3 :3 :3 \":3 :3 :3 :3\"...",
+                    ":3: :3 :3 :3 :3 :3...",
+                    ":3 :3 :3..."
+                ]
+            },
+            "debug_menu": {
+                "fps": ":3: :3",
+                "position": ":3: :3, :3, :3",
+                "chunk_title": ":3:",
+                "current_chunk": ":3 :3:",
+                "looking_at": ":3 :3: :3",
+                "lighting_title": ":3:",
+                "sky_lighting": ":3: :3",
+                "block_lighting_title": ":3:",
+                "block_light_red": ":3: :3",
+                "block_light_green": ":3: :3",
+                "block_light_blue": ":3: :3",
+                "runtime": ":3 :3 :3: :3",
+                "memory_usage": ":3 :3:",
+                "java_heap": ":3 :3: :3",
+                "native_heap": ":3 :3: :3",
+                "layer_type": ":3: :3",
+                "palette_size": ":3 :3: :3",
+                "regions_loaded": ":3 :3: :3",
+                "chunks_loaded": ":3 :3: :3",
+                "world_seed": ":3 :3: :3",
+                "zone_seed": ":3 :3: :3"
+            }
+        }
+    },
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "config_menu": {
+                "title": ":3 :3",
+                "button": ":3"
+            },
+            "main_menu": {
+                "config_menu": ":3 :3"
+            },
+            "loading_menu": {
+                "waiting_title": ":3/:3 :3 :3 :3 :3",
+                "finished_title": ":3 :3/:3 :3",
+                "button": ":3 :3 :3"
+            },
+            "flux_options": {
+                "name": ":3 :3",
+                "msaa": ":3 :3",
+                "language": ":3: :3"
+            }
+        }
+    }
+}
