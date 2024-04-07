@@ -1,0 +1,241 @@
+{
+    "language_tag": "no-NB",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "base",
+        "fluxapi"
+    ],
+    "base": {
+        "priority": 1000,
+        "format_templates": {
+            "main_menu": {
+                "game_version": [
+                    "game_version"
+                ],
+                "controller_info": [
+                    "number_of_controllers",
+                    "controller_noun"
+                ]
+            },
+            "options_menu": {
+                "vsync": [
+                    "vsync_on"
+                ],
+                "render_distance": [
+                    "render_distance"
+                ],
+                "inverted_mouse": [
+                    "inverted_mouse"
+                ],
+                "mouse_sensitivity": [
+                    "mouse_sensitivity"
+                ],
+                "sound": [
+                    "sound_on"
+                ],
+                "fov": [
+                    "fov"
+                ],
+                "max_fps": [
+                    "fps"
+                ]
+            },
+            "pause_menu": {
+                "lighting": [
+                    "lighting"
+                ]
+            },
+            "in_game": {
+                "screenshot_saved_to": [
+                    "file"
+                ]
+            },
+            "loading_menu": {
+                "tips": [
+                    "hide_ui_key",
+                    "screenshot_key",
+                    "show_debug_key",
+                    "drop_key",
+                    "inventory_key"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "På",
+                "off": "Av",
+                "cancel": "Kanseller",
+                "back": "Tilbake",
+                "save": "Lagre",
+                "ok": "Ok",
+                "done": "Ferdig",
+                "return_to_main_menu": "Tilbake til Hovedmenyen",
+                "return_to_game": "Tilbake til Spillet"
+            },
+            "main_menu": {
+                "start": "Start",
+                "open_save_directory": "Åpne Lagrings Katalogen",
+                "options": "Innstillinger",
+                "quit": "Avslutt spill",
+                "yt_channel": "Se utviklingsloggene på youtube.com/@finalforeach",
+                "game_version": "Cosmic Reach Versjon {game_version}",
+                "mac_warning": "ADVARSEL: Mac støttes ikke for øyeblikket. Det er lite sannsynlig at spillet vil fungere.",
+                "controller": "Kontroller",
+                "controllers": "Kontrollere",
+                "controller_info": "{number_of_controllers} {controller_noun} oppdaget!\nStøtten for kontrollere er ufullstendig nå, \nog vil bli forbedret i senere oppdateringer."
+            },
+            "options_menu": {
+                "vsync": "Vsync: {vsync_on}",
+                "render_distance": "VisuellAvstand: {render_distance} Chunks",
+                "inverted_mouse": "Omvendt Musretning: {inverted_mouse}",
+                "mouse_sensitivity": "Mus Følsomhet: {mouse_sensitivity}",
+                "sound": "Lyd: {sound_on}",
+                "fov": "Synsfelt: {fov}",
+                "keybinds": "Keybinds",
+                "max_fps": "Maks FPS: {fps}",
+                "crash_the_game": "Feilsøkning: Krasj spillet"
+            },
+            "pre_alpha_preamble": {
+                "pre_alpha_text": "!Velkommen til Cosmic Reach! \n Spillet er i veldig tidlig utvikling, den mangler funksjoner, spillet er ikke ferdig, \n og vil mest sansynlig ha feil, krasjing og korrupsjon.\n Alt er med forbehold om endringer og representerer ikke finalversjonen av spillet.\n Spillet er tilgjengelig for deg, slik at du kan komme med tilbakemeldinger som kan bidra til å styre fremtiden for dette spillet \n God testing... og spillbryting!"
+            },
+            "pause_menu": {
+                "lighting": "Lysmodus: {lighting}",
+                "respawn": "Gjenoppstå",
+                "saving": "Lagrer..."
+            },
+            "keybinds": {
+                "forward": "Framover",
+                "backward": "Bakover",
+                "left": "Venstre",
+                "right": "Høyre",
+                "jump": "Hopp",
+                "crouch": "Snik",
+                "sprint": "Sprint",
+                "prone": "Kryp",
+                "inventory": "Inventar",
+                "drop_item": "Slipp Gjenstand",
+                "hide_ui": "Skjul Brukergrensesnittet",
+                "screenshot": "Ta Skjermbilde",
+                "debug_info": "Feilsøkingsinformasjon",
+                "no_clip": "No-Clip",
+                "reload_shaders": "Last inn Shaders på nytt",
+                "fullscreen": "Fullskjerm"
+            },
+            "world_chooser_menu": {
+                "create_new_world": "Lag Ny Verden",
+                "open_worlds_directory": "Åpne Verdens Katalogen"
+            },
+            "in_game": {
+                "screenshot_saved_to": "Lagret skjermbildet til {file}"
+            },
+            "loading_menu": {
+                "loading": "Laster inn",
+                "tips": [
+                    "Retikulerer splines...",
+                    "Knusing av hjørner...",
+                    "Formerer verden...",
+                    "Fargelegger lys...",
+                    "Halverer plater...",
+                    "Fyller inn blokker...",
+                    "Lagdeling av chunks...",
+                    "Akkumulering av romstøv...",
+                    "Kuber i bane...",
+                    "Batching av chunks...",
+                    "Gjør månen krøllete...",
+                    "Rydder opp i inventarer...",
+                    "Fresnel-ificerende...",
+                    "Koloniserer planeter...",
+                    "Tips Velg blokk med den midterste museknappen!",
+                    "Tips Prøv å endre de ulike lysmodusene i pausemenyen!",
+                    "Tips Press '{hide_ui_key}' to for å gjemme brukergrensesnittet",
+                    "Tips Press '{screenshot_key}' for å ta et skjermbilde!",
+                    "Tips Press '{show_debug_key}' for å se feilsøkingsinformasjonen",
+                    "Tips Press '{drop_key}' for å kaste gjenstanden du holder!",
+                    "Tips Press '{inventory_key}' for å åpne inventaret!",
+                    "Tips Sprint mot en vegg for å løpe på veggen, for å komme deg lenger enn du ville gjort ved å hoppe."
+                ],
+                "odd_tips": [
+                    "Transplantasjon av celler...",
+                    "Inkubering...",
+                    "Ofring av forsøkspersoner...",
+                    "Teller sauer...",
+                    "Kassering av avdødes vev...",
+                    "Høsting av stamceller...",
+                    "Innsamling av organ \"donasjoner\"...",
+                    "Observasjon av tricephalus...",
+                    "Gjentar forsøk...",
+                    "Kategorisering av prøver...",
+                    "Tips Du kan ikke kjempe mot entropi.",
+                    "Nyheter: Ukjent spesimen sett på månen...",
+                    "Nyheter: Spesimen klassifisert med navnet \"Mannen av Månen\"...",
+                    "Nyheter: Mystisk drepte spillere rapporteres...",
+                    "Nyheter: Er vi virkelig alene?",
+                    "Nyheter: Spiller hevder å ha sett \"Mannen av Månen\"...",
+                    "Nyheter: Spillere hevder at de føler seg overvåket...",
+                    "Lager Svarte Hull..."
+                ]
+            },
+            "debug_menu": {
+                "fps": "FPS: %s",
+                "position": "Posisjon: %s, %s, %s",
+                "chunk_title": "Chunk:",
+                "current_chunk": "Nåværende Chunk:",
+                "looking_at": "Ser på: %s",
+                "lighting_title": "Lys:",
+                "sky_lighting": "Himmellys: %s",
+                "block_lighting_title": "Blokklys:",
+                "block_light_red": "Rød: %s",
+                "block_light_green": "Grønn: %s",
+                "block_light_blue": "Blå: %s",
+                "runtime": "Cosmic Reach versjon: %s",
+                "memory_usage": "Minnebruk:",
+                "java_heap": "Java Minnebruk: %s",
+                "native_heap": "System Minnebruk: %s",
+                "layer_type": "LagType: %s",
+                "palette_size": "Palettstørrelse: %s",
+                "regions_loaded": "Lastede regioner: %s",
+                "chunks_loaded": "Lastede biter: %s",
+                "world_seed": "Verden Frø: %s",
+                "zone_seed": "Sone Frø: %s"
+            }
+        }
+    },
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "config_menu": {
+                "title": "Konfigureringsmeny",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": "Modifikasjon Konfigurasjoner"
+            },
+            "loading_menu": {
+                "waiting_title": "Laster/Bygger Modifiserte Ressurser Vennligst Vent",
+                "finished_title": "Lasting/Oppretting Fullført",
+                "button": "Fortsett Til Spill"
+            },
+            "flux_options": {
+                "name": "Flux Innstillinger",
+                "msaa": "MSAA {msaa}x",
+                "language": "Språk: {language}"
+            }
+        }
+    }
+}
