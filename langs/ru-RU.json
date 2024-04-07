@@ -1,0 +1,241 @@
+{
+    "language_tag": "ru-RU",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "base",
+        "fluxapi"
+    ],
+    "base": {
+        "priority": 1000,
+        "format_templates": {
+            "main_menu": {
+                "game_version": [
+                    "game_version"
+                ],
+                "controller_info": [
+                    "number_of_controllers",
+                    "controller_noun"
+                ]
+            },
+            "options_menu": {
+                "vsync": [
+                    "vsync_on"
+                ],
+                "render_distance": [
+                    "render_distance"
+                ],
+                "inverted_mouse": [
+                    "inverted_mouse"
+                ],
+                "mouse_sensitivity": [
+                    "mouse_sensitivity"
+                ],
+                "sound": [
+                    "sound_on"
+                ],
+                "fov": [
+                    "fov"
+                ],
+                "max_fps": [
+                    "fps"
+                ]
+            },
+            "pause_menu": {
+                "lighting": [
+                    "lighting"
+                ]
+            },
+            "in_game": {
+                "screenshot_saved_to": [
+                    "file"
+                ]
+            },
+            "loading_menu": {
+                "tips": [
+                    "hide_ui_key",
+                    "screenshot_key",
+                    "show_debug_key",
+                    "drop_key",
+                    "inventory_key"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "Вкл",
+                "off": "Выкл",
+                "cancel": "Отмена",
+                "back": "Назад",
+                "save": "Сохранить",
+                "ok": "Хорошо",
+                "done": "Готово",
+                "return_to_main_menu": "Вернуться в главное меню",
+                "return_to_game": "Вернуться к игре"
+            },
+            "main_menu": {
+                "start": "Играть",
+                "open_save_directory": "Открыть папку созранений",
+                "options": "Настройки",
+                "quit": "Выход",
+                "yt_channel": "Смотреть журналы разработки на Ютубе youtube.com/@finalforeach",
+                "game_version": "Cosmic Reach версии {game_version}",
+                "mac_warning": "ПРЕДУПРЕЖДЕНИЕ: Мак не поддерживается. Скорее всего игра работать не будетю",
+                "controller": "контроллер",
+                "controllers": "контроллеров",
+                "controller_info": "Обнаружено {number_of_controllers} {controller_noun}!\nПоддержка контроллеров не завершена,\nи будет обновляться вместе с игрой."
+            },
+            "options_menu": {
+                "vsync": "Верт. синхронизация: {vsync_on}",
+                "render_distance": "Дистанция прорисовки: {render_distance} Chunks",
+                "inverted_mouse": "Инверсия мыши: {inverted_mouse}",
+                "mouse_sensitivity": "Чувствительность мыши: {mouse_sensitivity}",
+                "sound": "Звук: {sound_on}",
+                "fov": "Поле зрения: {fov}",
+                "keybinds": "Управление клавиатурой",
+                "max_fps": "Ограничение FPS: {fps}",
+                "crash_the_game": "Debug: Crash the game"
+            },
+            "pre_alpha_preamble": {
+                "pre_alpha_text": "!Добро пожаловать в Cosmic Reach! \n Игра находится в ранней стадии разработки, она ещё долго не будет завершена, \n и, скорее всего, содержит баги, глитчи, крашы и повреждение миров.\n Всё субъективно и не репрезентует финальную версию игры. \n Вы можете в неё поиграть и написать о ней отзыв чтобы помочь улучшить эту игру \n Счастливого тестирования... и поломки игры!"
+            },
+            "pause_menu": {
+                "lighting": "Освещение: {lighting}",
+                "respawn": "ВОзродиться",
+                "saving": "Сохранение..."
+            },
+            "keybinds": {
+                "forward": "Вперёд",
+                "backward": "Назал",
+                "left": "Влево",
+                "right": "Вправо",
+                "jump": "Прыжок",
+                "crouch": "Красться",
+                "sprint": "Бег",
+                "prone": "Prone",
+                "inventory": "Инвентарь",
+                "drop_item": "Выбросить предмет",
+                "hide_ui": "Спрятать интерфейс",
+                "screenshot": "Снимок экрана",
+                "debug_info": "Информация разработчика",
+                "no_clip": "Отключение столкновений",
+                "reload_shaders": "Перезагрузить шейдера",
+                "fullscreen": "Полный экран"
+            },
+            "world_chooser_menu": {
+                "create_new_world": "Создать новый мир",
+                "open_worlds_directory": "Открыть папку сохранения миров"
+            },
+            "in_game": {
+                "screenshot_saved_to": "Снимок экрана созранён как {file}"
+            },
+            "loading_menu": {
+                "loading": "Загрузка",
+                "tips": [
+                    "Reticulating splines...",
+                    "Squishing vertices...",
+                    "Shaping the world...",
+                    "Colouring lights...",
+                    "Halving slabs...",
+                    "Populating blocks...",
+                    "Layering chunks...",
+                    "Accumulating space dust...",
+                    "Orbiting cubes...",
+                    "Batching chunks...",
+                    "Curdling the moon...",
+                    "De-cluttering inventories...",
+                    "Fresnel-ificating...",
+                    "Colonizing planets...",
+                    "Tip Pick block using the middle mouse button!",
+                    "Tip Try changing the different lighting modes in the pause menu!",
+                    "Tip Press '{hide_ui_key}' to hide the user interface",
+                    "Tip Press '{screenshot_key}' to take a screenshot!",
+                    "Tip Press '{show_debug_key}' to look at debugging information",
+                    "Tip Press '{drop_key}' to drop the current item!",
+                    "Tip Press '{inventory_key}' to open the inventory!",
+                    "Tip Sprint against a wall to 'wall run', going farther than you would only by jumping."
+                ],
+                "odd_tips": [
+                    "Grafting cells...",
+                    "Incubating...",
+                    "Sacrificing subjects...",
+                    "Counting sheep...",
+                    "Discarding deceased tissue...",
+                    "Harvesting stem cells...",
+                    "Collecting organ \"donations\"...",
+                    "Observing tricephalous...",
+                    "Repeating trials...",
+                    "Categorizing specimens...",
+                    "Tip You cannot fight against entropy.",
+                    "News: Unknown specimen seen on the Moon...",
+                    "News: Specimen classified with the name \"Man of the Moon\"...",
+                    "News: Mysteriously killed players are reported...",
+                    "News: Are we really alone?",
+                    "News: Player claims to have seen the \"Man of the Moon\"...",
+                    "News: Players claim to feel watched...",
+                    "Creating Black Holes..."
+                ]
+            },
+            "debug_menu": {
+                "fps": "FPS: %s",
+                "position": "Позиция: %s, %s, %s",
+                "chunk_title": "Чанк:",
+                "current_chunk": "Текущий чанк:",
+                "looking_at": "Смотришь на: %s",
+                "lighting_title": "Освещение:",
+                "sky_lighting": "Свет неба: %s",
+                "block_lighting_title": "Свет блоков:",
+                "block_light_red": "Красный: %s",
+                "block_light_green": "Зелёный: %s",
+                "block_light_blue": "Синий: %s",
+                "runtime": "Cosmic Reach версии %s",
+                "memory_usage": "Памяти использовано:",
+                "java_heap": "Java Heap: %s",
+                "native_heap": "Native Heap: %s",
+                "layer_type": "LayerType: %s",
+                "palette_size": "Размер политры: %s",
+                "regions_loaded": "Загружено регионов: %s",
+                "chunks_loaded": "Загружено чанков: %s",
+                "world_seed": "Сид мира: %s",
+                "zone_seed": "Сид зоны: %s"
+            }
+        }
+    },
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "config_menu": {
+                "title": "Меню настроек",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": "Настройки модов"
+            },
+            "loading_menu": {
+                "waiting_title": "Загрузка/построение ресурсов модов; пожалуйста, подождите",
+                "finished_title": "Загрузка/создание ресурсов завершена",
+                "button": "Вернуться к игре"
+            },
+            "flux_options": {
+                "name": "Найтройки Flux",
+                "msaa": "MSAA {msaa}x",
+                "language": "Язык: {language}"
+            }
+        }
+    }
+}
