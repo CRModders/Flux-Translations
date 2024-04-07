@@ -1,0 +1,241 @@
+{
+    "language_tag": "ja-JP",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "base",
+        "fluxapi"
+    ],
+    "base": {
+        "priority": 1000,
+        "format_templates": {
+            "main_menu": {
+                "game_version": [
+                    "game_version"
+                ],
+                "controller_info": [
+                    "number_of_controllers",
+                    "controller_noun"
+                ]
+            },
+            "options_menu": {
+                "vsync": [
+                    "vsync_on"
+                ],
+                "render_distance": [
+                    "render_distance"
+                ],
+                "inverted_mouse": [
+                    "inverted_mouse"
+                ],
+                "mouse_sensitivity": [
+                    "mouse_sensitivity"
+                ],
+                "sound": [
+                    "sound_on"
+                ],
+                "fov": [
+                    "fov"
+                ],
+                "max_fps": [
+                    "fps"
+                ]
+            },
+            "pause_menu": {
+                "lighting": [
+                    "lighting"
+                ]
+            },
+            "in_game": {
+                "screenshot_saved_to": [
+                    "file"
+                ]
+            },
+            "loading_menu": {
+                "tips": [
+                    "hide_ui_key",
+                    "screenshot_key",
+                    "show_debug_key",
+                    "drop_key",
+                    "inventory_key"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "オン",
+                "off": "オフ",
+                "cancel": "キャンセル",
+                "back": "戻る",
+                "save": "保存",
+                "ok": "OK",
+                "done": "完了",
+                "return_to_main_menu": "メインメニューに戻る",
+                "return_to_game": "ゲームに戻る"
+            },
+            "main_menu": {
+                "start": "スタート",
+                "open_save_directory": "セーブディレクトリを開く",
+                "options": "オプション",
+                "quit": "終了",
+                "yt_channel": "開発日誌を youtube.com/@finalforeach でご覧ください",
+                "game_version": "Cosmic Reach バージョン {game_version}",
+                "mac_warning": "警告: 現在、Mac はサポートされていません。ゲームは動作しない可能性が高いです。",
+                "controller": "コントローラー",
+                "controllers": "コントローラー",
+                "controller_info": "{number_of_controllers} 個の {controller_noun} が検出されました！\nコントローラーのサポートは現在不完全であり、\n今後のアップデートで改善されます。"
+            },
+            "options_menu": {
+                "vsync": "Vsync: {vsync_on}",
+                "render_distance": "描画距離: {render_distance} チャンク",
+                "inverted_mouse": "マウス反転: {inverted_mouse}",
+                "mouse_sensitivity": "マウス感度: {mouse_sensitivity}",
+                "sound": "サウンド: {sound_on}",
+                "fov": "視野角: {fov}",
+                "keybinds": "キー設定",
+                "max_fps": "最大 FPS: {fps}",
+                "crash_the_game": "デバッグ: ゲームをクラッシュさせる"
+            },
+            "pre_alpha_preamble": {
+                "pre_alpha_text": "!Cosmic Reach へようこそ！\nこのゲームは非常に初期の開発段階にあり、機能が不足しており、\n完成には程遠く、バグ、グリッチ、クラッシュ、ワールドの破損が発生する可能性があります。\nすべては変更される可能性があり、最終的なゲームを表すものではありません。\nこのゲームの将来を導くフィードバックを提供できるように、プレイすることができます\n楽しいテストを...そしてゲーム破壊を！"
+            },
+            "pause_menu": {
+                "lighting": "ライティング: {lighting}",
+                "respawn": "リスポーン",
+                "saving": "セーブ中..."
+            },
+            "keybinds": {
+                "forward": "前進",
+                "backward": "後退",
+                "left": "左",
+                "right": "右",
+                "jump": "ジャンプ",
+                "crouch": "しゃがむ",
+                "sprint": "ダッシュ",
+                "prone": "伏せる",
+                "inventory": "インベントリ",
+                "drop_item": "アイテムを捨てる",
+                "hide_ui": "UI を非表示",
+                "screenshot": "スクリーンショット",
+                "debug_info": "デバッグ情報",
+                "no_clip": "ノー クリップ",
+                "reload_shaders": "シェーダーをリロード",
+                "fullscreen": "フルスクリーン"
+            },
+            "world_chooser_menu": {
+                "create_new_world": "新しいワールドを作成",
+                "open_worlds_directory": "ワールドディレクトリを開く"
+            },
+            "in_game": {
+                "screenshot_saved_to": "スクリーンショットを {file} に保存しました"
+            },
+            "loading_menu": {
+                "loading": "読み込み中",
+                "tips": [
+                    "スプラインを再構成しています...",
+                    "頂点を押しつぶしています...",
+                    "世界を形作っています...",
+                    "光に色を付けています...",
+                    "スラブを半分にしています...",
+                    "ブロックを配置しています...",
+                    "チャンクを重ねています...",
+                    "宇宙塵を集めています...",
+                    "立方体を周回させています...",
+                    "チャンクをバッチ処理しています...",
+                    "月を凝固させています...",
+                    "インベントリを整理しています...",
+                    "フレネル化しています...",
+                    "惑星を植民地化しています...",
+                    "ヒント 中央マウスボタンを使ってブロックを選択してください！",
+                    "ヒント ポーズメニューで異なるライティングモードを試してみてください！",
+                    "ヒント '{hide_ui_key}' を押してユーザーインターフェースを非表示にします",
+                    "ヒント '{screenshot_key}' を押してスクリーンショットを撮ります！",
+                    "ヒント '{show_debug_key}' を押してデバッグ情報を表示します",
+                    "ヒント '{drop_key}' を押して現在のアイテムを捨てます！",
+                    "ヒント '{inventory_key}' を押してインベントリを開きます！",
+                    "ヒント 壁に向かってダッシュして「ウォールラン」を行い、ジャンプだけよりも遠くまで移動します。"
+                ],
+                "odd_tips": [
+                    "細胞を移植しています...",
+                    "培養しています...",
+                    "被験者を犠牲にしています...",
+                    "羊を数えています...",
+                    "死亡した組織を廃棄しています...",
+                    "幹細胞を採取しています...",
+                    "臓器の「寄付」を収集しています...",
+                    "三頭体を観察しています...",
+                    "試験を繰り返しています...",
+                    "標本を分類しています...",
+                    "ヒント エントロピーには逆らえません。",
+                    "ニュース: 月で未知の標本が目撃されました...",
+                    "ニュース: 標本は「月の男」という名前で分類されました...",
+                    "ニュース: 不可解に殺されたプレイヤーが報告されています...",
+                    "ニュース: 私たちは本当に一人なのでしょうか？",
+                    "ニュース: プレイヤーが「月の男」を見たと言い張っています...",
+                    "ニュース: プレイヤーが見られていると感じると主張しています...",
+                    "ブラックホールを作成しています..."
+                ]
+            },
+            "debug_menu": {
+                "fps": "FPS: %s",
+                "position": "位置: %s, %s, %s",
+                "chunk_title": "チャンク:",
+                "current_chunk": "現在のチャンク:",
+                "looking_at": "見ているもの: %s",
+                "lighting_title": "ライティング:",
+                "sky_lighting": "スカイライト: %s",
+                "block_lighting_title": "ブロックライティング:",
+                "block_light_red": "赤: %s",
+                "block_light_green": "緑: %s",
+                "block_light_blue": "青: %s",
+                "runtime": "Cosmic Reach バージョン: %s",
+                "memory_usage": "メモリ使用量:",
+                "java_heap": "Java ヒープ: %s",
+                "native_heap": "ネイティブ ヒープ: %s",
+                "layer_type": "レイヤータイプ: %s",
+                "palette_size": "パレットサイズ: %s",
+                "regions_loaded": "読み込まれたリージョン: %s",
+                "chunks_loaded": "読み込まれたチャンク: %s",
+                "world_seed": "ワールドシード: %s",
+                "zone_seed": "ゾーンシード: %s"
+            }
+        }
+    },
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "config_menu": {
+                "title": "設定メニュー",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": "Mod 設定"
+            },
+            "loading_menu": {
+                "waiting_title": "Mod アセットの読み込み/構築中です。しばらくお待ちください",
+                "finished_title": "アセットの読み込み/作成が完了しました",
+                "button": "ゲームを続行"
+            },
+            "flux_options": {
+                "name": "Flux オプション",
+                "msaa": "MSAA {msaa}x",
+                "language": "言語: {language}"
+            }
+        }
+    }
+}
