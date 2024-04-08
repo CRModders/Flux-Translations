@@ -75,33 +75,33 @@
             },
             "main_menu": {
                 "start": "Играть",
-                "open_save_directory": "Открыть папку созранений",
+                "open_save_directory": "Открыть папку сохранений",
                 "options": "Настройки",
                 "quit": "Выход",
                 "yt_channel": "Смотреть журналы разработки на Ютубе youtube.com/@finalforeach",
-                "game_version": "Cosmic Reach версии {game_version}",
-                "mac_warning": "ПРЕДУПРЕЖДЕНИЕ: Мак не поддерживается. Скорее всего игра работать не будетю",
+                "game_version": "Cosmic Reach {game_version}",
+                "mac_warning": "ПРЕДУПРЕЖДЕНИЕ: MacOS не поддерживается. Скорее всего игра работать не будет",
                 "controller": "контроллер",
                 "controllers": "контроллеров",
                 "controller_info": "Обнаружено {number_of_controllers} {controller_noun}!\nПоддержка контроллеров не завершена,\nи будет обновляться вместе с игрой."
             },
             "options_menu": {
                 "vsync": "Верт. синхронизация: {vsync_on}",
-                "render_distance": "Дистанция прорисовки: {render_distance} Chunks",
+                "render_distance": "Дальность прорисовки: {render_distance} чанков",
                 "inverted_mouse": "Инверсия мыши: {inverted_mouse}",
                 "mouse_sensitivity": "Чувствительность мыши: {mouse_sensitivity}",
                 "sound": "Звук: {sound_on}",
                 "fov": "Поле зрения: {fov}",
                 "keybinds": "Управление клавиатурой",
                 "max_fps": "Ограничение FPS: {fps}",
-                "crash_the_game": "Debug: Crash the game"
+                "crash_the_game": "Отладка: Аварийно завершить игру"
             },
             "pre_alpha_preamble": {
-                "pre_alpha_text": "!Добро пожаловать в Cosmic Reach! \n Игра находится в ранней стадии разработки, она ещё долго не будет завершена, \n и, скорее всего, содержит баги, глитчи, крашы и повреждение миров.\n Всё субъективно и не репрезентует финальную версию игры. \n Вы можете в неё поиграть и написать о ней отзыв чтобы помочь улучшить эту игру \n Счастливого тестирования... и поломки игры!"
+                "pre_alpha_text": "!Добро пожаловать в Cosmic Reach! \n Игра находится на ранней стадии разработки, она ещё долго не будет завершена, \n и, скорее всего, содержит баги, глитчи, крашы и повреждение миров.\n Всё субъективно и не репрезентует финальную версию игры. \n Вы можете в неё поиграть и написать о ней отзыв чтобы помочь улучшить эту игру \n Счастливого тестирования... и поломки игры!"
             },
             "pause_menu": {
                 "lighting": "Освещение: {lighting}",
-                "respawn": "ВОзродиться",
+                "respawn": "Возродиться",
                 "saving": "Сохранение..."
             },
             "keybinds": {
@@ -119,7 +119,7 @@
                 "screenshot": "Снимок экрана",
                 "debug_info": "Информация разработчика",
                 "no_clip": "Отключение столкновений",
-                "reload_shaders": "Перезагрузить шейдера",
+                "reload_shaders": "Перезагрузить шейдеры",
                 "fullscreen": "Полный экран"
             },
             "world_chooser_menu": {
@@ -188,12 +188,12 @@
                 "block_light_red": "Красный: %s",
                 "block_light_green": "Зелёный: %s",
                 "block_light_blue": "Синий: %s",
-                "runtime": "Cosmic Reach версии %s",
+                "runtime": "Cosmic Reach %s",
                 "memory_usage": "Памяти использовано:",
                 "java_heap": "Java Heap: %s",
                 "native_heap": "Native Heap: %s",
                 "layer_type": "LayerType: %s",
-                "palette_size": "Размер политры: %s",
+                "palette_size": "Размер палитры: %s",
                 "regions_loaded": "Загружено регионов: %s",
                 "chunks_loaded": "Загружено чанков: %s",
                 "world_seed": "Сид мира: %s",
