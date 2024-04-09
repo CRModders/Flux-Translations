@@ -1,0 +1,18 @@
+{
+    "language_tag": "nb-NO",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "fluxtranslator"
+    ],
+    "fluxtranslator": {
+        "priority": 1000,
+        "format_templates": {
+        },
+        "strings": {
+            "options": {
+                "revert_to_english": "Tilbakestill til Engelsk"
+            }
+        }
+    }
+}
