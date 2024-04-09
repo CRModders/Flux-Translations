@@ -1,0 +1,56 @@
+{
+    "language_tag": "nb-NO",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "fluxapi"
+    ],
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "På",
+                "off": "Av",
+                "cancel": "Kanseller",
+                "back": "Tilbake",
+                "save": "Lagre",
+                "ok": "Ok",
+                "done": "Ferdig",
+                "return_to_main_menu": "Tilbake til Hovedmenyen",
+                "return_to_game": "Tilbake til Spillet"
+            },
+            "config_menu": {
+                "title": "Konfigureringsmeny",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": "Modifikasjon Konfigurasjoner"
+            },
+            "loading_menu": {
+                "waiting_title": "Laster/Bygger Modifiserte Ressurser Vennligst Vent",
+                "finished_title": "Lasting/Oppretting Fullført",
+                "button": "Fortsett Til Spill"
+            },
+            "flux_options": {
+                "name": "Flux Innstillinger",
+                "msaa": "MSAA {msaa}x",
+                "language": "Språk: {language}"
+            }
+        }
+    }
+}

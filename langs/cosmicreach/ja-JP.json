@@ -3,8 +3,7 @@
     "major_version": 1,
     "minor_version": 0,
     "ids": [
-        "base",
-        "fluxapi"
+        "base"
     ],
     "base": {
         "priority": 1000,
@@ -198,43 +197,6 @@
                 "chunks_loaded": "読み込まれたチャンク: %s",
                 "world_seed": "ワールドシード: %s",
                 "zone_seed": "ゾーンシード: %s"
-            }
-        }
-    },
-    "fluxapi": {
-        "priority": 1000,
-        "format_templates": {
-            "config_menu": {
-                "button": [
-                    "name"
-                ]
-            },
-            "flux_options": {
-                "msaa": [
-                    "msaa"
-                ],
-                "language": [
-                    "language"
-                ]
-            }
-        },
-        "strings": {
-            "config_menu": {
-                "title": "設定メニュー",
-                "button": "{name}"
-            },
-            "main_menu": {
-                "config_menu": "Mod 設定"
-            },
-            "loading_menu": {
-                "waiting_title": "Mod アセットの読み込み/構築中です。しばらくお待ちください",
-                "finished_title": "アセットの読み込み/作成が完了しました",
-                "button": "ゲームを続行"
-            },
-            "flux_options": {
-                "name": "Flux オプション",
-                "msaa": "MSAA {msaa}x",
-                "language": "言語: {language}"
             }
         }
     }

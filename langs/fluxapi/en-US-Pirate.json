@@ -1,0 +1,56 @@
+{
+    "language_tag": "en-US-Pirate",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "fluxapi"
+    ],
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "On",
+                "off": "Off",
+                "cancel": "Retreat",
+                "back": "Retreat",
+                "save": "Save",
+                "ok": "Yarr",
+                "done": "Done",
+                "return_to_main_menu": "Return t' ta shore",
+                "return_to_game": "Return t' ta seas"
+            },
+            "config_menu": {
+                "title": "Config Menu",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": "Mod Configs"
+            },
+            "loading_menu": {
+                "waiting_title": "Loading/Building Modded Assets Please Wait",
+                "finished_title": "Asset Loading/Creation Finished",
+                "button": "Return t' ta seas"
+            },
+            "flux_options": {
+                "name": "Flux Options",
+                "msaa": "MSAA {msaa}x",
+                "language": "Lingo: {language}"
+            }
+        }
+    }
+}

@@ -3,8 +3,7 @@
     "major_version": 1,
     "minor_version": 0,
     "ids": [
-        "base",
-        "fluxapi"
+        "base"
     ],
     "base": {
         "priority": 1000,
@@ -198,43 +197,6 @@
                 "chunks_loaded": "Загружено чанков: %s",
                 "world_seed": "Сид мира: %s",
                 "zone_seed": "Сид зоны: %s"
-            }
-        }
-    },
-    "fluxapi": {
-        "priority": 1000,
-        "format_templates": {
-            "config_menu": {
-                "button": [
-                    "name"
-                ]
-            },
-            "flux_options": {
-                "msaa": [
-                    "msaa"
-                ],
-                "language": [
-                    "language"
-                ]
-            }
-        },
-        "strings": {
-            "config_menu": {
-                "title": "Меню настроек",
-                "button": "{name}"
-            },
-            "main_menu": {
-                "config_menu": "Настройки модов"
-            },
-            "loading_menu": {
-                "waiting_title": "Загрузка/построение ресурсов модов; пожалуйста, подождите",
-                "finished_title": "Загрузка/создание ресурсов завершена",
-                "button": "Вернуться к игре"
-            },
-            "flux_options": {
-                "name": "Найтройки Flux",
-                "msaa": "MSAA {msaa}x",
-                "language": "Язык: {language}"
             }
         }
     }

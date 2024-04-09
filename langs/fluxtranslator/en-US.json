@@ -1,0 +1,18 @@
+{
+    "language_tag": "en-US",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "fluxtranslator"
+    ],
+    "fluxtranslator": {
+        "priority": 1000,
+        "format_templates": {
+        },
+        "strings": {
+            "options": {
+                "revert_to_english": "Revert to English"
+            }
+        }
+    }
+}

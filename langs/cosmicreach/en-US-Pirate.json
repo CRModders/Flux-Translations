@@ -1,10 +1,9 @@
 {
-    "language_tag": "en-US",
+    "language_tag": "en-US-Pirate",
     "major_version": 1,
     "minor_version": 0,
     "ids": [
-        "base",
-        "fluxapi"
+        "base"
     ],
     "base": {
         "priority": 1000,
@@ -65,43 +64,43 @@
             "menu": {
                 "on": "On",
                 "off": "Off",
-                "cancel": "Cancel",
-                "back": "Back",
+                "cancel": "Retreat",
+                "back": "Retreat",
                 "save": "Save",
-                "ok": "Ok",
+                "ok": "Yarr",
                 "done": "Done",
-                "return_to_main_menu": "Return to Main Menu",
-                "return_to_game": "Return to Game"
+                "return_to_main_menu": "Return t' ta shore",
+                "return_to_game": "Return t' ta seas"
             },
             "main_menu": {
-                "start": "Start",
+                "start": "Embark",
                 "open_save_directory": "Open Save Directory",
-                "options": "Options",
-                "quit": "Quit",
+                "options": "Options", 
+                "quit": "Retreat",
                 "yt_channel": "Watch the devlogs at youtube.com/@finalforeach",
-                "game_version": "Cosmic Reach Version {game_version}",
-                "mac_warning": "WARNING: Mac is not supported at this time. The game is unlikely to work.",
+                "game_version": "Ship Build {game_version}",
+                "mac_warning": "Aye Matey, macOS ain't supported yet. The ship ain't gonna sail!",
                 "controller": "Controller",
                 "controllers": "Controllers",
-                "controller_info": "{number_of_controllers} {controller_noun} detected!\nController support is incomplete now,\nand will be improved in later updates."
+                "controller_info": "Aye Matey, {number_of_controllers} {controller_noun} discovered!\nController support ain't done yet,\nand will be improved later."
             },
             "options_menu": {
                 "vsync": "Vsync: {vsync_on}",
-                "render_distance": "RenderDistance: {render_distance} Chunks",
-                "inverted_mouse": "Inverted Mouse: {inverted_mouse}",
-                "mouse_sensitivity": "Mouse Sensitivity: {mouse_sensitivity}",
-                "sound": "Sound: {sound_on}",
+                "render_distance": "Vision distance: {render_distance} Chunks",
+                "inverted_mouse": "Flipped Wheel: {inverted_mouse}",
+                "mouse_sensitivity": "Wheel Sensitivity: {mouse_sensitivity}",
+                "sound": "Noise: {sound_on}",
                 "fov": "FOV: {fov}",
                 "keybinds": "Keybinds",
                 "max_fps": "Max FPS: {fps}",
-                "crash_the_game": "Debug: Crash the game"
+                "crash_the_game": "Debug: Sink the ship"
             },
             "pre_alpha_preamble": {
-                "pre_alpha_text": "!Welcome to Cosmic Reach! \n The game is in very early development, it is missing features, is nowhere near complete, \n and will likely have bugs, glitches, crashes and world corruption.\n Everything is subject to change and is not representative of the final game.\n It's available for you to play so that you can give feedback to help guide the future of this game \n Happy testing... and game-breaking!"
+                "pre_alpha_text": "Aye Matey, Welcome to Cosmic Reach! \n The ship is still being built, it is missing sails, is nowhere near done, \n and will have bugs, glitches, sinkages and world corruption.\n Everything is subject to change and is not lookin like the final ship.\n It's here for you to steer so that you can give feedback to help steer the future of ta ship \n Happy testing... and ship-sinking!"
             },
             "pause_menu": {
                 "lighting": "Lighting: {lighting}",
-                "respawn": "Respawn",
+                "respawn": "Back to shore",
                 "saving": "Saving..."
             },
             "keybinds": {
@@ -110,11 +109,11 @@
                 "left": "Left",
                 "right": "Right",
                 "jump": "Jump",
-                "crouch": "Crouch",
+                "crouch": "Duck",
                 "sprint": "Sprint",
                 "prone": "Prone",
-                "inventory": "Inventory",
-                "drop_item": "Drop Item",
+                "inventory": "Suplies",
+                "drop_item": "Throw to ta seas",
                 "hide_ui": "Hide UI",
                 "screenshot": "Screenshot",
                 "debug_info": "Debug Info",
@@ -123,8 +122,8 @@
                 "fullscreen": "Fullscreen"
             },
             "world_chooser_menu": {
-                "create_new_world": "Create New World",
-                "open_worlds_directory": "Open Worlds Directory"
+                "create_new_world": "Create New Ocean",
+                "open_worlds_directory": "Open Ocean Directory"
             },
             "in_game": {
                 "screenshot_saved_to": "Saved screenshot to {file}"
@@ -134,7 +133,7 @@
                 "tips": [
                     "Reticulating splines...",
                     "Squishing vertices...",
-                    "Shaping the world...",
+                    "Shaping ta seas...",
                     "Colouring lights...",
                     "Halving slabs...",
                     "Populating blocks...",
@@ -143,16 +142,16 @@
                     "Orbiting cubes...",
                     "Batching chunks...",
                     "Curdling the moon...",
-                    "De-cluttering inventories...",
+                    "De-cluttering suplies...",
                     "Fresnel-ificating...",
-                    "Colonizing planets...",
+                    "Colonizing oceans...",
                     "Tip Pick block using the middle mouse button!",
                     "Tip Try changing the different lighting modes in the pause menu!",
                     "Tip Press '{hide_ui_key}' to hide the user interface",
                     "Tip Press '{screenshot_key}' to take a screenshot!",
                     "Tip Press '{show_debug_key}' to look at debugging information",
-                    "Tip Press '{drop_key}' to drop the current item!",
-                    "Tip Press '{inventory_key}' to open the inventory!",
+                    "Tip Press '{drop_key}' to throw the current item overboard!",
+                    "Tip Press '{inventory_key}' to open the suplies!",
                     "Tip Sprint against a wall to 'wall run', going farther than you would only by jumping."
                 ],
                 "odd_tips": [
@@ -167,28 +166,28 @@
                     "Repeating trials...",
                     "Categorizing specimens...",
                     "Tip You cannot fight against entropy.",
-                    "News: Unknown specimen seen on the Moon...",
-                    "News: Specimen classified with the name \"Man of the Moon\"...",
+                    "News: Unknown specimen seen on the seafloor...",
+                    "News: Specimen classified with the name \"Kraken\"...",
                     "News: Mysteriously killed players are reported...",
                     "News: Are we really alone?",
-                    "News: Player claims to have seen the \"Man of the Moon\"...",
+                    "News: Player claims to have seen the \"Kraken\"...",
                     "News: Players claim to feel watched...",
                     "Creating Black Holes..."
                 ]
             },
             "debug_menu": {
                 "fps": "FPS: %s",
-                "position": "Position: %s, %s, %s",
+                "position": "Coordinates: %s, %s, %s",
                 "chunk_title": "Chunk:",
                 "current_chunk": "Current Chunk:",
                 "looking_at": "Looking at: %s",
                 "lighting_title": "Lighting:",
-                "sky_lighting": "SkyLight: %s",
-                "block_lighting_title": "BlockLighting:",
+                "sky_lighting": "Sun Light: %s",
+                "block_lighting_title": "Lantern Lighting:",
                 "block_light_red": "Red: %s",
                 "block_light_green": "Green: %s",
                 "block_light_blue": "Blue: %s",
-                "runtime": "Cosmic Reach version: %s",
+                "runtime": "Ship Build: %s",
                 "memory_usage": "Memory Usage:",
                 "java_heap": "Java Heap: %s",
                 "native_heap": "Native Heap: %s",
@@ -198,43 +197,6 @@
                 "chunks_loaded": "Chunks loaded: %s",
                 "world_seed": "World Seed: %s",
                 "zone_seed": "Zone Seed: %s"
-            }
-        }
-    },
-    "fluxapi": {
-        "priority": 1000,
-        "format_templates": {
-            "config_menu": {
-                "button": [
-                    "name"
-                ]
-            },
-            "flux_options": {
-                "msaa": [
-                    "msaa"
-                ],
-                "language": [
-                    "language"
-                ]
-            }
-        },
-        "strings": {
-            "config_menu": {
-                "title": "Config Menu",
-                "button": "{name}"
-            },
-            "main_menu": {
-                "config_menu": "Mod Configs"
-            },
-            "loading_menu": {
-                "waiting_title": "Loading/Building Modded Assets Please Wait",
-                "finished_title": "Asset Loading/Creation Finished",
-                "button": "Continue To Game"
-            },
-            "flux_options": {
-                "name": "Flux Options",
-                "msaa": "MSAA {msaa}x",
-                "language": "Language: {language}"
             }
         }
     }

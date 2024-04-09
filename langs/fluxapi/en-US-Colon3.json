@@ -1,0 +1,56 @@
+{
+    "language_tag": "en-US-Colon3",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "fluxapi"
+    ],
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": ":3",
+                "off": ":3",
+                "cancel": ":3",
+                "back": ":3",
+                "save": ":3",
+                "ok": ":3",
+                "done": ":3",
+                "return_to_main_menu": ":3 :3 :3 :3",
+                "return_to_game": ":3 :3 :3"
+            },
+            "config_menu": {
+                "title": ":3 :3",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": ":3 :3"
+            },
+            "loading_menu": {
+                "waiting_title": ":3/:3 :3 :3 :3 :3",
+                "finished_title": ":3 :3/:3 :3",
+                "button": ":3 :3 :3"
+            },
+            "flux_options": {
+                "name": ":3 :3",
+                "msaa": ":3 {msaa}x",
+                "language": ":3: {language}"
+            }
+        }
+    }
+}

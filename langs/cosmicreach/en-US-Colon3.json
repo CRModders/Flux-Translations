@@ -3,8 +3,7 @@
     "major_version": 1,
     "minor_version": 0,
     "ids": [
-        "base",
-        "fluxapi"
+        "base"
     ],
     "base": {
         "priority": 1000,
@@ -198,43 +197,6 @@
                 "chunks_loaded": ":3 :3: %s",
                 "world_seed": ":3 :3: %s",
                 "zone_seed": ":3 :3: %s"
-            }
-        }
-    },
-    "fluxapi": {
-        "priority": 1000,
-        "format_templates": {
-            "config_menu": {
-                "button": [
-                    "name"
-                ]
-            },
-            "flux_options": {
-                "msaa": [
-                    "msaa"
-                ],
-                "language": [
-                    "language"
-                ]
-            }
-        },
-        "strings": {
-            "config_menu": {
-                "title": ":3 :3",
-                "button": "{name}"
-            },
-            "main_menu": {
-                "config_menu": ":3 :3"
-            },
-            "loading_menu": {
-                "waiting_title": ":3/:3 :3 :3 :3 :3",
-                "finished_title": ":3 :3/:3 :3",
-                "button": ":3 :3 :3"
-            },
-            "flux_options": {
-                "name": ":3 :3",
-                "msaa": ":3 {msaa}x",
-                "language": ":3: {language}"
             }
         }
     }

@@ -1,0 +1,56 @@
+{
+    "language_tag": "pl-PL",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "fluxapi"
+    ],
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "Wł.",
+                "off": "Wył.",
+                "cancel": "Anuluj",
+                "back": "Wróć",
+                "save": "Zapisz",
+                "ok": "Ok",
+                "done": "Gotowe",
+                "return_to_main_menu": "Wróć do menu głównego",
+                "return_to_game": "Wróć do gry"
+            },
+            "config_menu": {
+                "title": "Menu konfiguracji",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": "Konfiguracje modów"
+            },
+            "loading_menu": {
+                "waiting_title": "Ładowanie/Budowanie modyfikowanych zasobów. Proszę czekać",
+                "finished_title": "Zakończono ładowanie/tworzenie zasobów",
+                "button": "Kontynuuj grę"
+            },
+            "flux_options": {
+                "name": "Ustawienia Flux",
+                "msaa": "MSAA {msaa}x",
+                "language": "Język: {language}"
+            }
+        }
+    }
+}

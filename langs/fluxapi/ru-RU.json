@@ -1,0 +1,56 @@
+{
+    "language_tag": "ru-RU",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "fluxapi"
+    ],
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "Вкл",
+                "off": "Выкл",
+                "cancel": "Отмена",
+                "back": "Назад",
+                "save": "Сохранить",
+                "ok": "Хорошо",
+                "done": "Готово",
+                "return_to_main_menu": "Вернуться в главное меню",
+                "return_to_game": "Вернуться к игре"
+            },
+            "config_menu": {
+                "title": "Меню настроек",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": "Настройки модов"
+            },
+            "loading_menu": {
+                "waiting_title": "Загрузка/построение ресурсов модов; пожалуйста, подождите",
+                "finished_title": "Загрузка/создание ресурсов завершена",
+                "button": "Вернуться к игре"
+            },
+            "flux_options": {
+                "name": "Найтройки Flux",
+                "msaa": "MSAA {msaa}x",
+                "language": "Язык: {language}"
+            }
+        }
+    }
+}

@@ -3,8 +3,7 @@
     "major_version": 1,
     "minor_version": 0,
     "ids": [
-        "base",
-        "fluxapi"
+        "base"
     ],
     "base": {
         "priority": 1000,
@@ -198,43 +197,6 @@
                 "chunks_loaded": "Lastede biter: %s",
                 "world_seed": "Verden Frø: %s",
                 "zone_seed": "Sone Frø: %s"
-            }
-        }
-    },
-    "fluxapi": {
-        "priority": 1000,
-        "format_templates": {
-            "config_menu": {
-                "button": [
-                    "name"
-                ]
-            },
-            "flux_options": {
-                "msaa": [
-                    "msaa"
-                ],
-                "language": [
-                    "language"
-                ]
-            }
-        },
-        "strings": {
-            "config_menu": {
-                "title": "Konfigureringsmeny",
-                "button": "{name}"
-            },
-            "main_menu": {
-                "config_menu": "Modifikasjon Konfigurasjoner"
-            },
-            "loading_menu": {
-                "waiting_title": "Laster/Bygger Modifiserte Ressurser Vennligst Vent",
-                "finished_title": "Lasting/Oppretting Fullført",
-                "button": "Fortsett Til Spill"
-            },
-            "flux_options": {
-                "name": "Flux Innstillinger",
-                "msaa": "MSAA {msaa}x",
-                "language": "Språk: {language}"
             }
         }
     }

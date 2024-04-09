@@ -1,0 +1,57 @@
+{
+    "language_tag": "de-DE",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "fluxapi"
+    ],
+  
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "An",
+                "off": "Aus",
+                "cancel": "Abbrechen",
+                "back": "Zurück",
+                "save": "Speichern",
+                "ok": "Ok",
+                "done": "Fertig",
+                "return_to_main_menu": "Zurück zum Hauptmenü",
+                "return_to_game": "Zurück zum Spiel"
+            },
+            "config_menu": {
+                "title": "Konfigurationsmenu",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": "Mod-Konfiguration"
+            },
+            "loading_menu": {
+                "waiting_title": "Laden/Erstellen von modifizierten Assets Bitte Warten",
+                "finished_title": "Asset Laden/Erstellen Abgeschlossen",
+                "button": "Weiter zum Spiel"
+            },
+            "flux_options": {
+                "name": "Flux Optionen",
+                "msaa": "MSAA {msaa}x",
+                "language": "Sprache: {language}"
+            }
+        }
+    }
+}

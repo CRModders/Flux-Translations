@@ -3,8 +3,7 @@
     "major_version": 1,
     "minor_version": 0,
     "ids": [
-        "base",
-        "fluxapi"
+        "base"
     ],
     "base": {
         "priority": 1000,
@@ -198,43 +197,6 @@
                 "chunks_loaded": "Załadowane chunki: %s",
                 "world_seed": "Ziarno świata: %s",
                 "zone_seed": "Ziarno strefy: %s"
-            }
-        }
-    },
-    "fluxapi": {
-        "priority": 1000,
-        "format_templates": {
-            "config_menu": {
-                "button": [
-                    "name"
-                ]
-            },
-            "flux_options": {
-                "msaa": [
-                    "msaa"
-                ],
-                "language": [
-                    "language"
-                ]
-            }
-        },
-        "strings": {
-            "config_menu": {
-                "title": "Menu konfiguracji",
-                "button": "{name}"
-            },
-            "main_menu": {
-                "config_menu": "Konfiguracje modów"
-            },
-            "loading_menu": {
-                "waiting_title": "Ładowanie/Budowanie modyfikowanych zasobów. Proszę czekać",
-                "finished_title": "Zakończono ładowanie/tworzenie zasobów",
-                "button": "Kontynuuj grę"
-            },
-            "flux_options": {
-                "name": "Ustawienia Flux",
-                "msaa": "MSAA {msaa}x",
-                "language": "Język: {language}"
             }
         }
     }

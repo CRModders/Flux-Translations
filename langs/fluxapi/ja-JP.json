@@ -1,0 +1,56 @@
+{
+    "language_tag": "ja-JP",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "fluxapi"
+    ],
+    "fluxapi": {
+        "priority": 1000,
+        "format_templates": {
+            "config_menu": {
+                "button": [
+                    "name"
+                ]
+            },
+            "flux_options": {
+                "msaa": [
+                    "msaa"
+                ],
+                "language": [
+                    "language"
+                ]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "オン",
+                "off": "オフ",
+                "cancel": "キャンセル",
+                "back": "戻る",
+                "save": "保存",
+                "ok": "OK",
+                "done": "完了",
+                "return_to_main_menu": "メインメニューに戻る",
+                "return_to_game": "ゲームに戻る"
+            },
+            "config_menu": {
+                "title": "設定メニュー",
+                "button": "{name}"
+            },
+            "main_menu": {
+                "config_menu": "Mod 設定"
+            },
+            "loading_menu": {
+                "waiting_title": "Mod アセットの読み込み/構築中です。しばらくお待ちください",
+                "finished_title": "アセットの読み込み/作成が完了しました",
+                "button": "ゲームを続行"
+            },
+            "flux_options": {
+                "name": "Flux オプション",
+                "msaa": "MSAA {msaa}x",
+                "language": "言語: {language}"
+            }
+        }
+    }
+}
