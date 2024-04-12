@@ -1,7 +1,7 @@
 {
     "language_tag": "nb-NO",
     "major_version": 1,
-    "minor_version": 0,
+    "minor_version": 1,
     "ids": [
         "fluxapi"
     ],
@@ -31,23 +31,23 @@
                 "save": "Lagre",
                 "ok": "Ok",
                 "done": "Ferdig",
-                "return_to_main_menu": "Tilbake til Hovedmenyen",
-                "return_to_game": "Tilbake til Spillet"
+                "return_to_main_menu": "Gå til hovedmenyen",
+                "return_to_game": "Fortsett til spillet"
             },
             "config_menu": {
                 "title": "Konfigureringsmeny",
                 "button": "{name}"
             },
             "main_menu": {
-                "config_menu": "Modifikasjon Konfigurasjoner"
+                "config_menu": "Konfigurasjoner av modifikasjoner"
             },
             "loading_menu": {
-                "waiting_title": "Laster/Bygger Modifiserte Ressurser Vennligst Vent",
-                "finished_title": "Lasting/Oppretting Fullført",
-                "button": "Fortsett Til Spill"
+                "waiting_title": "Laster/Oppretter ressureser til modifikasjoner. Vennligst vent",
+                "finished_title": "Innlasting/Oppretting fullført",
+                "button": "Fortsett til spillet"
             },
             "flux_options": {
-                "name": "Flux Innstillinger",
+                "name": "Flux-innstillinger",
                 "msaa": "MSAA {msaa}x",
                 "language": "Språk: {language}"
             }
